@@ -1,0 +1,8 @@
+frontend/node_modules
+backend/ml/datasets
+backend/app/static/uploads/*
+**/__pycache__
+**/.pytest_cache
+*.zip
+*.db
+.git

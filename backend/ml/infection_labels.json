@@ -1,0 +1,32 @@
+{
+  "0": {
+    "class_name": "Bacterial_Infection",
+    "infection_category": "Bacterial Infection",
+    "is_healthy": false
+  },
+  "1": {
+    "class_name": "Fungal_Infection",
+    "infection_category": "Fungal Infection",
+    "is_healthy": false
+  },
+  "2": {
+    "class_name": "Healthy_Leaf",
+    "infection_category": "Healthy Leaf",
+    "is_healthy": true
+  },
+  "3": {
+    "class_name": "Nutrient_Deficiency",
+    "infection_category": "Nutrient Deficiency",
+    "is_healthy": false
+  },
+  "4": {
+    "class_name": "Pest_Damage",
+    "infection_category": "Pest Damage",
+    "is_healthy": false
+  },
+  "5": {
+    "class_name": "Viral_Disease",
+    "infection_category": "Viral Disease",
+    "is_healthy": false
+  }
+}

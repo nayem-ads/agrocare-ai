@@ -1,0 +1,50 @@
+{
+  "total_images_tested": 50,
+  "overall_distribution": {
+    "Bacterial Infection": 6,
+    "Fungal Infection": 30,
+    "Healthy Leaf": 2,
+    "Nutrient Deficiency": 0,
+    "Pest Damage": 6,
+    "Viral Disease": 6
+  },
+  "detailed_distribution": {
+    "Pest_Damage": {
+      "tested_count": 6,
+      "predictions": {
+        "Pest Damage": 6
+      }
+    },
+    "Viral_Disease": {
+      "tested_count": 6,
+      "predictions": {
+        "Viral Disease": 6
+      }
+    },
+    "Bacterial_Infection": {
+      "tested_count": 6,
+      "predictions": {
+        "Bacterial Infection": 6
+      }
+    },
+    "Nutrient_Deficiency": {
+      "tested_count": 1,
+      "predictions": {
+        "Healthy Leaf": 1
+      }
+    },
+    "Fungal_Infection": {
+      "tested_count": 30,
+      "predictions": {
+        "Fungal Infection": 29,
+        "Healthy Leaf": 1
+      }
+    },
+    "Healthy_Leaf": {
+      "tested_count": 1,
+      "predictions": {
+        "Fungal Infection": 1
+      }
+    }
+  }
+}

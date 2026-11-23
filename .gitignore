@@ -1,0 +1,10 @@
+frontend/node_modules/
+backend/ml/datasets/
+backend/app/static/uploads/*
+!backend/app/static/uploads/.gitkeep
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+*.zip
+*.db
+.DS_Store

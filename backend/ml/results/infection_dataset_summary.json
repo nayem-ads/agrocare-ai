@@ -1,0 +1,53 @@
+{
+  "total_images": 404,
+  "category_counts": {
+    "Fungal Infection": 280,
+    "Bacterial Infection": 40,
+    "Viral Disease": 40,
+    "Pest Damage": 40,
+    "Nutrient Deficiency": 1,
+    "Healthy Leaf": 3
+  },
+  "train_counts": {
+    "Fungal Infection": 300,
+    "Bacterial Infection": 300,
+    "Viral Disease": 300,
+    "Pest Damage": 300,
+    "Nutrient Deficiency": 300,
+    "Healthy Leaf": 300
+  },
+  "validation_counts": {
+    "Fungal Infection": 42,
+    "Bacterial Infection": 6,
+    "Viral Disease": 6,
+    "Pest Damage": 6,
+    "Nutrient Deficiency": 0,
+    "Healthy Leaf": 0
+  },
+  "test_counts": {
+    "Fungal Infection": 42,
+    "Bacterial Infection": 6,
+    "Viral Disease": 6,
+    "Pest Damage": 6,
+    "Nutrient Deficiency": 1,
+    "Healthy Leaf": 1
+  },
+  "class_imbalance_ratio": 280.0,
+  "missing_classes": [],
+  "low_data_classes": [
+    "Fungal Infection",
+    "Bacterial Infection",
+    "Viral Disease",
+    "Pest Damage",
+    "Nutrient Deficiency",
+    "Healthy Leaf"
+  ],
+  "categories_status": {
+    "Fungal Infection": "Low Data (Oversampled / Augmented)",
+    "Bacterial Infection": "Low Data (Oversampled / Augmented)",
+    "Viral Disease": "Low Data (Oversampled / Augmented)",
+    "Pest Damage": "Low Data (Oversampled / Augmented)",
+    "Nutrient Deficiency": "Low Data (Oversampled / Augmented)",
+    "Healthy Leaf": "Low Data (Oversampled / Augmented)"
+  }
+}

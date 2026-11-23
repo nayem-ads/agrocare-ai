@@ -1,0 +1,62 @@
+{
+  "Tomato_Early_blight": {
+    "crop_name": "Tomato",
+    "disease_name": "Early Blight",
+    "disease_type": "Fungal infection",
+    "is_healthy": false
+  },
+  "Tomato_Late_blight": {
+    "crop_name": "Tomato",
+    "disease_name": "Late Blight",
+    "disease_type": "Fungal infection",
+    "is_healthy": false
+  },
+  "Potato_Early_blight": {
+    "crop_name": "Potato",
+    "disease_name": "Early Blight",
+    "disease_type": "Fungal infection",
+    "is_healthy": false
+  },
+  "Potato_Late_blight": {
+    "crop_name": "Potato",
+    "disease_name": "Late Blight",
+    "disease_type": "Fungal infection",
+    "is_healthy": false
+  },
+  "Rice_Blast": {
+    "crop_name": "Rice",
+    "disease_name": "Rice Blast",
+    "disease_type": "Fungal infection",
+    "is_healthy": false
+  },
+  "Rice_Brown_Spot": {
+    "crop_name": "Rice",
+    "disease_name": "Brown Spot",
+    "disease_type": "Fungal infection",
+    "is_healthy": false
+  },
+  "Rice_Bacterial_Leaf_Blight": {
+    "crop_name": "Rice",
+    "disease_name": "Bacterial Leaf Blight",
+    "disease_type": "Bacterial infection",
+    "is_healthy": false
+  },
+  "Tomato_healthy": {
+    "crop_name": "Tomato",
+    "disease_name": "Healthy Leaf",
+    "disease_type": "Healthy",
+    "is_healthy": true
+  },
+  "Potato_healthy": {
+    "crop_name": "Potato",
+    "disease_name": "Healthy Leaf",
+    "disease_type": "Healthy",
+    "is_healthy": true
+  },
+  "Rice_healthy": {
+    "crop_name": "Rice",
+    "disease_name": "Healthy Leaf",
+    "disease_type": "Healthy",
+    "is_healthy": true
+  }
+}
