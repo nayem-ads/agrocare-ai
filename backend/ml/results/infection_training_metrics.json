@@ -1,6 +1,6 @@
 {
-  "final_loss": 0.023863738402724266,
-  "final_accuracy": 0.994147777557373,
-  "final_val_loss": 0.003964131232351065,
-  "final_val_accuracy": 1.0
+  "final_loss": 0.4909150004386902,
+  "final_accuracy": 0.8186666369438171,
+  "final_val_loss": 0.7667697072029114,
+  "final_val_accuracy": 0.7012194991111755
 }

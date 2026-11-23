@@ -1,58 +1,58 @@
 {
   "Bacterial_Infection": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6.0
+    "precision": 0.5833333333333334,
+    "recall": 0.8076923076923077,
+    "f1-score": 0.6774193548387096,
+    "support": 26.0
   },
   "Fungal_Infection": {
-    "precision": 0.9714285714285714,
-    "recall": 1.0,
-    "f1-score": 0.9855072463768116,
-    "support": 34.0
+    "precision": 0.8787878787878788,
+    "recall": 0.6904761904761905,
+    "f1-score": 0.7733333333333333,
+    "support": 42.0
   },
   "Healthy_Leaf": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1.0
+    "precision": 0.6190476190476191,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.7428571428571429,
+    "support": 42.0
   },
   "Nutrient_Deficiency": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1.0
+    "precision": 0.7777777777777778,
+    "recall": 0.4666666666666667,
+    "f1-score": 0.5833333333333334,
+    "support": 15.0
   },
   "Pest_Damage": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6.0
+    "recall": 0.8,
+    "f1-score": 0.8888888888888888,
+    "support": 20.0
   },
   "Viral_Disease": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6.0
+    "recall": 0.42857142857142855,
+    "f1-score": 0.6,
+    "support": 21.0
   },
-  "accuracy": 0.9629629629629629,
+  "accuracy": 0.7289156626506024,
   "macro avg": {
-    "precision": 0.6619047619047619,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.6642512077294686,
-    "support": 54.0
+    "precision": 0.8098244348244349,
+    "recall": 0.6869963369963371,
+    "f1-score": 0.7109720088752347,
+    "support": 166.0
   },
   "weighted avg": {
-    "precision": 0.9449735449735449,
-    "recall": 0.9629629629629629,
-    "f1-score": 0.9538378958668814,
-    "support": 54.0
+    "precision": 0.7876049653158087,
+    "recall": 0.7289156626506024,
+    "f1-score": 0.7254257891782183,
+    "support": 166.0
   },
   "summary": {
-    "accuracy": 0.9629629629629629,
-    "weighted_precision": 0.9449735449735449,
-    "weighted_recall": 0.9629629629629629,
-    "weighted_f1_score": 0.9538378958668814,
+    "accuracy": 0.7289156626506024,
+    "weighted_precision": 0.7876049653158087,
+    "weighted_recall": 0.7289156626506024,
+    "weighted_f1_score": 0.7254257891782183,
     "model_bias_detected": false
   }
 }

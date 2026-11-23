@@ -1,0 +1,24 @@
+name: agrocare_ai_mobile
+description: AgroCare AI — Offline TFLite INT8 Multi-Crop Leaf Diagnosis & BAMIS Sync App (Flutter Android)
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.10.4
+  image_picker: ^1.0.7
+  geolocator: ^11.0.0
+  http: ^1.2.1
+  sqflite: ^2.3.2
+  connectivity_plus: ^6.0.1
+  flutter_tts: ^4.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/agrocare_mobile_int8.tflite
+    - assets/models/infection_labels.json

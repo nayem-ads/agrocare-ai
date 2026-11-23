@@ -13,6 +13,6 @@
   "crop_filter_required": false,
   "model_family": "mobilenet",
   "model_bias_detected": false,
-  "evaluation_accuracy": 0.9629629629629629,
-  "evaluation_f1_score": 0.9538378958668814
+  "evaluation_accuracy": 0.7289156626506024,
+  "evaluation_f1_score": 0.7254257891782183
 }
