@@ -103,9 +103,32 @@ def load_agrocare_model(force_reload: bool = False) -> tuple:
             _model_loaded = True
             print(f"Production ML model loaded successfully from: {active_model_path}")
         except Exception as e:
-            print(f"Error loading Keras model: {e}")
-            _model = None
-            _model_loaded = False
+            print(f"Direct load_model warning ({e}); attempting architecture reconstruction + load_weights...")
+            try:
+                num_classes = len(_labels)
+                base_model = tf.keras.applications.MobileNetV2(
+                    weights=None,
+                    include_top=False,
+                    input_shape=(224, 224, 3)
+                )
+                base_model.trainable = False
+                reconstructed = tf.keras.Sequential([
+                    base_model,
+                    tf.keras.layers.GlobalAveragePooling2D(),
+                    tf.keras.layers.Dense(256, activation="relu"),
+                    tf.keras.layers.Dropout(0.3),
+                    tf.keras.layers.Dense(num_classes, activation="softmax")
+                ])
+                reconstructed.build((None, 224, 224, 3))
+                weights_src = fallback_model_path if os.path.exists(fallback_model_path) else active_model_path
+                reconstructed.load_weights(weights_src)
+                _model = reconstructed
+                _model_loaded = True
+                print(f"Production ML model reconstructed and weights loaded from: {weights_src}")
+            except Exception as e2:
+                print(f"Error loading Keras model weights: {e2}")
+                _model = None
+                _model_loaded = False
     else:
         if active_model_path is None:
             print("Production model file is missing (both .keras and .h5 paths checked).")
